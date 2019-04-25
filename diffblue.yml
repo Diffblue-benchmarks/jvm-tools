@@ -154,94 +154,22 @@ phases:
 units:
   # Target Coverage: Unknown %
   - target:
-    - dir: jacoco-orig/sjk-core/target/generated-classes/jacoco
+    - dir: sjk-core/target/classes
       file: org/gridkit/util/formating/AsciiTableFormatter.class
       sourceDir: sjk-core/src/main/java
       sourceFile: org/gridkit/util/formating/AsciiTableFormatter.java
     # Child of AsciiTableFormatter.class
     # Child Coverage: Unknown %
-    - dir: jacoco-orig/sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/TableFormatter.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/TableFormatter.java
-    # Child of AsciiTableFormatter.class
-    # Child Coverage: Unknown %
-    - dir: jacoco-PR/sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/TableFormatter.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/TableFormatter.java
-    # Child of AsciiTableFormatter.class
-    # Child Coverage: Unknown %
-    - dir: jacoco-DC/sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/TableFormatter.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/TableFormatter.java
-    # Child of AsciiTableFormatter.class
-    # Child Coverage: Unknown %
-    - dir: sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/TableFormatter.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/TableFormatter.java
-    # Child of AsciiTableFormatter.class
-    # Child Coverage: Unknown %
     - dir: sjk-core/target/classes
       file: org/gridkit/util/formating/TableFormatter.class
       sourceDir: sjk-core/src/main/java
       sourceFile: org/gridkit/util/formating/TableFormatter.java
     # Child of AsciiTableFormatter.class
     # Child Coverage: Unknown %
-    - dir: jacoco-orig/sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/TabularDataSink.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/TabularDataSink.java
-    # Child of AsciiTableFormatter.class
-    # Child Coverage: Unknown %
-    - dir: jacoco-PR/sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/TabularDataSink.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/TabularDataSink.java
-    # Child of AsciiTableFormatter.class
-    # Child Coverage: Unknown %
-    - dir: jacoco-DC/sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/TabularDataSink.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/TabularDataSink.java
-    # Child of AsciiTableFormatter.class
-    # Child Coverage: Unknown %
-    - dir: sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/TabularDataSink.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/TabularDataSink.java
-    # Child of AsciiTableFormatter.class
-    # Child Coverage: Unknown %
     - dir: sjk-core/target/classes
       file: org/gridkit/util/formating/TabularDataSink.class
       sourceDir: sjk-core/src/main/java
       sourceFile: org/gridkit/util/formating/TabularDataSink.java
-    # Child of AsciiTableFormatter.class
-    # Child Coverage: Unknown %
-    - dir: jacoco-orig/sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/TextTable.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/TextTable.java
-    # Child of AsciiTableFormatter.class
-    # Child Coverage: Unknown %
-    - dir: jacoco-PR/sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/TextTable.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/TextTable.java
-    # Child of AsciiTableFormatter.class
-    # Child Coverage: Unknown %
-    - dir: jacoco-DC/sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/TextTable.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/TextTable.java
-    # Child of AsciiTableFormatter.class
-    # Child Coverage: Unknown %
-    - dir: sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/TextTable.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/TextTable.java
     # Child of AsciiTableFormatter.class
     # Child Coverage: Unknown %
     - dir: sjk-core/target/classes
@@ -250,82 +178,10 @@ units:
       sourceFile: org/gridkit/util/formating/TextTable.java
     # Child of AsciiTableFormatter.class
     # Child Coverage: Unknown %
-    - dir: jacoco-orig/sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/SimpleNumberFormatter.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/SimpleNumberFormatter.java
-    # Child of AsciiTableFormatter.class
-    # Child Coverage: Unknown %
-    - dir: jacoco-PR/sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/SimpleNumberFormatter.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/SimpleNumberFormatter.java
-    # Child of AsciiTableFormatter.class
-    # Child Coverage: Unknown %
-    - dir: jacoco-DC/sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/SimpleNumberFormatter.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/SimpleNumberFormatter.java
-    # Child of AsciiTableFormatter.class
-    # Child Coverage: Unknown %
-    - dir: sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/SimpleNumberFormatter.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/SimpleNumberFormatter.java
-    # Child of AsciiTableFormatter.class
-    # Child Coverage: Unknown %
     - dir: sjk-core/target/classes
       file: org/gridkit/util/formating/SimpleNumberFormatter.class
       sourceDir: sjk-core/src/main/java
       sourceFile: org/gridkit/util/formating/SimpleNumberFormatter.java
-    # Child of AsciiTableFormatter.class
-    # Child Coverage: Unknown %
-    - dir: jacoco-PR/sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/AsciiTableFormatter.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/AsciiTableFormatter.java
-    # Child of AsciiTableFormatter.class
-    # Child Coverage: Unknown %
-    - dir: jacoco-DC/sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/AsciiTableFormatter.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/AsciiTableFormatter.java
-    # Child of AsciiTableFormatter.class
-    # Child Coverage: Unknown %
-    - dir: sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/AsciiTableFormatter.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/AsciiTableFormatter.java
-    # Child of AsciiTableFormatter.class
-    # Child Coverage: Unknown %
-    - dir: sjk-core/target/classes
-      file: org/gridkit/util/formating/AsciiTableFormatter.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/AsciiTableFormatter.java
-    # Child of AsciiTableFormatter.class
-    # Child Coverage: Unknown %
-    - dir: jacoco-orig/sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/NumberFormat.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/NumberFormat.java
-    # Child of AsciiTableFormatter.class
-    # Child Coverage: Unknown %
-    - dir: jacoco-PR/sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/NumberFormat.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/NumberFormat.java
-    # Child of AsciiTableFormatter.class
-    # Child Coverage: Unknown %
-    - dir: jacoco-DC/sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/NumberFormat.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/NumberFormat.java
-    # Child of AsciiTableFormatter.class
-    # Child Coverage: Unknown %
-    - dir: sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/NumberFormat.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/NumberFormat.java
     # Child of AsciiTableFormatter.class
     # Child Coverage: Unknown %
     - dir: sjk-core/target/classes
@@ -334,178 +190,16 @@ units:
       sourceFile: org/gridkit/util/formating/NumberFormat.java
   # Target Coverage: Unknown %
   - target:
-    - dir: jacoco-PR/sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/AsciiTableFormatter.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/AsciiTableFormatter.java
-    # Child of AsciiTableFormatter.class
-    # Child Coverage: Unknown %
-    - dir: jacoco-orig/sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/AsciiTableFormatter.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/AsciiTableFormatter.java
-  # Target Coverage: Unknown %
-  - target:
-    - dir: jacoco-DC/sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/AsciiTableFormatter.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/AsciiTableFormatter.java
-  # Target Coverage: Unknown %
-  - target:
-    - dir: sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/AsciiTableFormatter.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/AsciiTableFormatter.java
-  # Target Coverage: Unknown %
-  - target:
-    - dir: sjk-core/target/classes
-      file: org/gridkit/util/formating/AsciiTableFormatter.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/AsciiTableFormatter.java
-  # Target Coverage: Unknown %
-  - target:
-    - dir: jacoco-orig/sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/CsvTableFormatter.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/CsvTableFormatter.java
-    # Child of CsvTableFormatter.class
-    # Child Coverage: Unknown %
-    - dir: jacoco-PR/sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/CsvTableFormatter.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/CsvTableFormatter.java
-    # Child of CsvTableFormatter.class
-    # Child Coverage: Unknown %
-    - dir: jacoco-DC/sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/CsvTableFormatter.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/CsvTableFormatter.java
-    # Child of CsvTableFormatter.class
-    # Child Coverage: Unknown %
-    - dir: sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/CsvTableFormatter.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/CsvTableFormatter.java
-    # Child of CsvTableFormatter.class
-    # Child Coverage: Unknown %
     - dir: sjk-core/target/classes
       file: org/gridkit/util/formating/CsvTableFormatter.class
       sourceDir: sjk-core/src/main/java
       sourceFile: org/gridkit/util/formating/CsvTableFormatter.java
   # Target Coverage: Unknown %
   - target:
-    - dir: jacoco-PR/sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/CsvTableFormatter.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/CsvTableFormatter.java
-    # Child of CsvTableFormatter.class
-    # Child Coverage: Unknown %
-    - dir: jacoco-orig/sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/CsvTableFormatter.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/CsvTableFormatter.java
-  # Target Coverage: Unknown %
-  - target:
-    - dir: jacoco-DC/sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/CsvTableFormatter.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/CsvTableFormatter.java
-  # Target Coverage: Unknown %
-  - target:
-    - dir: sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/CsvTableFormatter.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/CsvTableFormatter.java
-  # Target Coverage: Unknown %
-  - target:
-    - dir: sjk-core/target/classes
-      file: org/gridkit/util/formating/CsvTableFormatter.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/CsvTableFormatter.java
-  # Target Coverage: Unknown %
-  - target:
-    - dir: jacoco-orig/sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/Formats.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/Formats.java
-    # Child of Formats.class
-    # Child Coverage: Unknown %
-    - dir: jacoco-PR/sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/Formats.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/Formats.java
-    # Child of Formats.class
-    # Child Coverage: Unknown %
-    - dir: jacoco-DC/sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/Formats.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/Formats.java
-    # Child of Formats.class
-    # Child Coverage: Unknown %
-    - dir: sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/Formats.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/Formats.java
-    # Child of Formats.class
-    # Child Coverage: Unknown %
     - dir: sjk-core/target/classes
       file: org/gridkit/util/formating/Formats.class
       sourceDir: sjk-core/src/main/java
       sourceFile: org/gridkit/util/formating/Formats.java
-  # Target Coverage: Unknown %
-  - target:
-    - dir: jacoco-PR/sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/Formats.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/Formats.java
-    # Child of Formats.class
-    # Child Coverage: Unknown %
-    - dir: jacoco-orig/sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/Formats.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/Formats.java
-  # Target Coverage: Unknown %
-  - target:
-    - dir: jacoco-DC/sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/Formats.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/Formats.java
-  # Target Coverage: Unknown %
-  - target:
-    - dir: sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/Formats.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/Formats.java
-  # Target Coverage: Unknown %
-  - target:
-    - dir: sjk-core/target/classes
-      file: org/gridkit/util/formating/Formats.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/Formats.java
-  # Target Coverage: Unknown %
-  - target:
-    - dir: jacoco-orig/sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/NumberFormat.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/NumberFormat.java
-  # Target Coverage: Unknown %
-  - target:
-    - dir: jacoco-PR/sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/NumberFormat.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/NumberFormat.java
-  # Target Coverage: Unknown %
-  - target:
-    - dir: jacoco-DC/sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/NumberFormat.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/NumberFormat.java
-  # Target Coverage: Unknown %
-  - target:
-    - dir: sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/NumberFormat.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/NumberFormat.java
   # Target Coverage: Unknown %
   - target:
     - dir: sjk-core/target/classes
@@ -514,58 +208,10 @@ units:
       sourceFile: org/gridkit/util/formating/NumberFormat.java
   # Target Coverage: Unknown %
   - target:
-    - dir: jacoco-orig/sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/SimpleNumberFormatter.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/SimpleNumberFormatter.java
-  # Target Coverage: Unknown %
-  - target:
-    - dir: jacoco-PR/sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/SimpleNumberFormatter.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/SimpleNumberFormatter.java
-  # Target Coverage: Unknown %
-  - target:
-    - dir: jacoco-DC/sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/SimpleNumberFormatter.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/SimpleNumberFormatter.java
-  # Target Coverage: Unknown %
-  - target:
-    - dir: sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/SimpleNumberFormatter.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/SimpleNumberFormatter.java
-  # Target Coverage: Unknown %
-  - target:
     - dir: sjk-core/target/classes
       file: org/gridkit/util/formating/SimpleNumberFormatter.class
       sourceDir: sjk-core/src/main/java
       sourceFile: org/gridkit/util/formating/SimpleNumberFormatter.java
-  # Target Coverage: Unknown %
-  - target:
-    - dir: jacoco-orig/sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/TableFormatter.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/TableFormatter.java
-  # Target Coverage: Unknown %
-  - target:
-    - dir: jacoco-PR/sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/TableFormatter.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/TableFormatter.java
-  # Target Coverage: Unknown %
-  - target:
-    - dir: jacoco-DC/sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/TableFormatter.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/TableFormatter.java
-  # Target Coverage: Unknown %
-  - target:
-    - dir: sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/TableFormatter.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/TableFormatter.java
   # Target Coverage: Unknown %
   - target:
     - dir: sjk-core/target/classes
@@ -574,97 +220,37 @@ units:
       sourceFile: org/gridkit/util/formating/TableFormatter.java
   # Target Coverage: Unknown %
   - target:
-    - dir: jacoco-orig/sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/TabularDataSink.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/TabularDataSink.java
-  # Target Coverage: Unknown %
-  - target:
-    - dir: jacoco-PR/sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/TabularDataSink.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/TabularDataSink.java
-  # Target Coverage: Unknown %
-  - target:
-    - dir: jacoco-DC/sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/TabularDataSink.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/TabularDataSink.java
-  # Target Coverage: Unknown %
-  - target:
-    - dir: sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/TabularDataSink.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/TabularDataSink.java
-  # Target Coverage: Unknown %
-  - target:
     - dir: sjk-core/target/classes
       file: org/gridkit/util/formating/TabularDataSink.class
       sourceDir: sjk-core/src/main/java
       sourceFile: org/gridkit/util/formating/TabularDataSink.java
   # Target Coverage: Unknown %
   - target:
-    - dir: jacoco-orig/hprof-heap/target/generated-classes/jacoco
-      file: org/gridkit/jvmtool/heapdump/TextTable.class
-      sourceDir: hprof-heap/src/main/java
-      sourceFile: org/gridkit/jvmtool/heapdump/TextTable.java
-    # Child of TextTable.class
-    # Child Coverage: Unknown %
-    - dir: jacoco-PR/hprof-heap/target/generated-classes/jacoco
-      file: org/gridkit/jvmtool/heapdump/TextTable.class
-      sourceDir: hprof-heap/src/main/java
-      sourceFile: org/gridkit/jvmtool/heapdump/TextTable.java
-    # Child of TextTable.class
-    # Child Coverage: Unknown %
-    - dir: jacoco-DC/hprof-heap/target/generated-classes/jacoco
-      file: org/gridkit/jvmtool/heapdump/TextTable.class
-      sourceDir: hprof-heap/src/main/java
-      sourceFile: org/gridkit/jvmtool/heapdump/TextTable.java
-    # Child of TextTable.class
-    # Child Coverage: Unknown %
-    - dir: hprof-heap/target/generated-classes/jacoco
-      file: org/gridkit/jvmtool/heapdump/TextTable.class
-      sourceDir: hprof-heap/src/main/java
-      sourceFile: org/gridkit/jvmtool/heapdump/TextTable.java
-    # Child of TextTable.class
-    # Child Coverage: Unknown %
+    - dir: hprof-heap/target/test-classes
+      file: org/gridkit/jvmtool/util/TextTable.class
+      sourceDir: hprof-heap/src/test/java
+      sourceFile: org/gridkit/jvmtool/util/TextTable.java
+  # Target Coverage: Unknown %
+  - target:
     - dir: hprof-heap/target/classes
       file: org/gridkit/jvmtool/heapdump/TextTable.class
       sourceDir: hprof-heap/src/main/java
       sourceFile: org/gridkit/jvmtool/heapdump/TextTable.java
   # Target Coverage: Unknown %
   - target:
-    - dir: jacoco-orig/sjk-core/target/generated-classes/jacoco
+    - dir: sjk-core/target/classes
       file: org/gridkit/util/formating/TextTable.class
       sourceDir: sjk-core/src/main/java
       sourceFile: org/gridkit/util/formating/TextTable.java
   # Target Coverage: Unknown %
   - target:
-    - dir: jacoco-PR/hprof-heap/target/generated-classes/jacoco
-      file: org/gridkit/jvmtool/heapdump/TextTable.class
-      sourceDir: hprof-heap/src/main/java
-      sourceFile: org/gridkit/jvmtool/heapdump/TextTable.java
-    # Child of TextTable.class
-    # Child Coverage: Unknown %
-    - dir: jacoco-orig/hprof-heap/target/generated-classes/jacoco
-      file: org/gridkit/jvmtool/heapdump/TextTable.class
-      sourceDir: hprof-heap/src/main/java
-      sourceFile: org/gridkit/jvmtool/heapdump/TextTable.java
+    - dir: hprof-heap/target/test-classes
+      file: org/gridkit/jvmtool/util/TextTree.class
+      sourceDir: hprof-heap/src/test/java
+      sourceFile: org/gridkit/jvmtool/util/TextTree.java
   # Target Coverage: Unknown %
   - target:
-    - dir: jacoco-PR/sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/TextTable.class
+    - dir: sjk-core/target/classes
+      file: org/gridkit/util/formating/TextTree.class
       sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/TextTable.java
-  # Target Coverage: Unknown %
-  - target:
-    - dir: jacoco-DC/hprof-heap/target/generated-classes/jacoco
-      file: org/gridkit/jvmtool/heapdump/TextTable.class
-      sourceDir: hprof-heap/src/main/java
-      sourceFile: org/gridkit/jvmtool/heapdump/TextTable.java
-  # Target Coverage: Unknown %
-  - target:
-    - dir: jacoco-DC/sjk-core/target/generated-classes/jacoco
-      file: org/gridkit/util/formating/TextTable.class
-      sourceDir: sjk-core/src/main/java
-      sourceFile: org/gridkit/util/formating/TextTable.java
+      sourceFile: org/gridkit/util/formating/TextTree.java

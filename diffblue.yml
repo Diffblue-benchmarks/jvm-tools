@@ -226,28 +226,10 @@ units:
       sourceFile: org/gridkit/util/formating/TabularDataSink.java
   # Target Coverage: Unknown %
   - target:
-    - dir: hprof-heap/target/test-classes
-      file: org/gridkit/jvmtool/util/TextTable.class
-      sourceDir: hprof-heap/src/test/java
-      sourceFile: org/gridkit/jvmtool/util/TextTable.java
-  # Target Coverage: Unknown %
-  - target:
-    - dir: hprof-heap/target/classes
-      file: org/gridkit/jvmtool/heapdump/TextTable.class
-      sourceDir: hprof-heap/src/main/java
-      sourceFile: org/gridkit/jvmtool/heapdump/TextTable.java
-  # Target Coverage: Unknown %
-  - target:
     - dir: sjk-core/target/classes
       file: org/gridkit/util/formating/TextTable.class
       sourceDir: sjk-core/src/main/java
       sourceFile: org/gridkit/util/formating/TextTable.java
-  # Target Coverage: Unknown %
-  - target:
-    - dir: hprof-heap/target/test-classes
-      file: org/gridkit/jvmtool/util/TextTree.class
-      sourceDir: hprof-heap/src/test/java
-      sourceFile: org/gridkit/jvmtool/util/TextTree.java
   # Target Coverage: Unknown %
   - target:
     - dir: sjk-core/target/classes
